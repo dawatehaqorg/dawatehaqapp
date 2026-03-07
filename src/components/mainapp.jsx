@@ -1238,13 +1238,7 @@ export default function TrustWebsite() {
                 <span>+91 7209824997</span>
               </div>
             </div>
-            <div className="contact-detail">
-              <div className="contact-detail-icon">💳</div>
-              <div className="contact-detail-text">
-                <strong>Donations (SBI Collect)</strong>
-                <span>dawatehaq@sbi</span>
-              </div>
-            </div>
+            
             <div className="whatsapp-note">
               <span>💬</span>
               <p>Contact form messages are sent directly via <strong>WhatsApp</strong> for faster response. Jazakallah Khair!</p>
