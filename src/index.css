@@ -199,8 +199,11 @@ button:focus-visible {
 
 
         .hero-content {
-          position: relative; z-index: 2;
-          max-width: 1200px; margin: 0 auto; padding: 0 5%;
+          position: relative; 
+          z-index: 2;
+          max-width: 1200px; 
+          margin: 0 auto; 
+          padding: 0 5%;
           padding-top: 100px;
         }
         .hero-badge {
@@ -263,7 +266,15 @@ button:focus-visible {
           transition: all 0.3s; text-decoration: none; display: inline-block;
         }
         .btn-outline:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-3px); }
-
+        .explore-sec {
+          margin-top:50px;
+          position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%);
+          display: flex; flex-direction: column; align-items: center; gap: 8px;
+          color: rgba(255,255,255,0.4); font-size: 11px;
+          font-family: 'Tajawal', sans-serif; letter-spacing: 2px;
+          animation: bounce 2s infinite;
+        
+        }
         .hero-scroll {
           position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%);
           display: flex; flex-direction: column; align-items: center; gap: 8px;
@@ -766,3 +777,5 @@ button:focus-visible {
   background: var(--deep);
   color: var(--gold);
 }
+
+

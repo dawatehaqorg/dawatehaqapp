@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 
 function Objectives({visibleSections}) {
+
+  console.log("Objectives", visibleSections)
     const [showObjectives, setShowObjectives] = useState(false);
     const objective = [
               "Establish & operate CBSE schools (pre-primary to higher secondary)",
